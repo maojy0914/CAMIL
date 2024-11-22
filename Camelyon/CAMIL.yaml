@@ -32,6 +32,10 @@ Data:
 Model:
     name: CAMIL
     n_classes: 2
+    input_dim: 1024
+    temperature: 1.2
+    dropout: 0.15
+    n_layers: 4
 
 
 Optimizer:

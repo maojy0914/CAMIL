@@ -31,8 +31,12 @@ Data:
         num_workers: 8
 
 Model:
-    name: TestModel8
-    n_classes: 2
+    name: CAMIL
+    n_classes: 3
+    input_dim: 1024
+    temperature: 1.2
+    dropout: 0.15
+    n_layers: 4
 
 
 Optimizer:
